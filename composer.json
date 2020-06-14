@@ -1,7 +1,6 @@
 {
     "name": "semir/laravel2impala",
     "description": "A PHP extension library that can directly connect to Impala/Hive.",
-    "license": "Semir.IT",
     "authors": [
         {
             "name": "Tris",
