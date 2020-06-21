@@ -51,7 +51,7 @@ class Impala {
     /**
      * @return ImpalaConnection|ThriftSQL|ThriftSQL\Impala
      */
-    public function getConnection() {
+    protected function getConnection() {
         if (!isset(self::$connectHandle) || empty(self::$connectHandle)) {
             self::$connectHandle = new ThriftSQL\Impala();
         }
@@ -81,7 +81,7 @@ class Impala {
         return $sql;
     }
 
-    public function disconnect() {
+    protected function disconnect() {
         if (!empty(self::$connectHandle)) {
             self::$connectHandle->disconnect();
         }
