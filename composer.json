@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Semir\\Laravel2impala\\": "packages/semir/laravel2impala/src/"
+            "Semir\\Laravel2impala\\": "src/"
         }
     }
 }
