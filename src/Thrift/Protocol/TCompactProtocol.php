@@ -22,9 +22,9 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol;
 
-use Thrift\Type\TType;
-use Thrift\Exception\TProtocolException;
-use Thrift\Factory\TStringFuncFactory;
+use Semir\Laravel2impala\Thrift\Type\TType;
+use Semir\Laravel2impala\Thrift\Exception\TProtocolException;
+use Semir\Laravel2impala\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Compact implementation of the Thrift protocol.

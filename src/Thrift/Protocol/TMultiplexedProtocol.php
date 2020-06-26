@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol;
 
-use Thrift\Type\TMessageType;
+use Semir\Laravel2impala\Thrift\Type\TMessageType;
 
 /**
  * <code>TMultiplexedProtocol</code> is a protocol-independent concrete decorator

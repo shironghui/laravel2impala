@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol\SimpleJSON;
 
-use Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Exception\TException;
 
 class CollectionMapKeyException extends TException
 {

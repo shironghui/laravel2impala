@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol;
 
-use Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Exception\TException;
 
 /**
  * <code>TProtocolDecorator</code> forwards all requests to an enclosed

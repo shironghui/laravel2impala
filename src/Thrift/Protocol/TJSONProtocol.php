@@ -23,12 +23,12 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol;
 
-use Thrift\Type\TType;
-use Thrift\Exception\TProtocolException;
-use Thrift\Protocol\JSON\BaseContext;
-use Thrift\Protocol\JSON\LookaheadReader;
-use Thrift\Protocol\JSON\PairContext;
-use Thrift\Protocol\JSON\ListContext;
+use Semir\Laravel2impala\Thrift\Type\TType;
+use Semir\Laravel2impala\Thrift\Exception\TProtocolException;
+use Semir\Laravel2impala\Thrift\Protocol\JSON\BaseContext;
+use Semir\Laravel2impala\Thrift\Protocol\JSON\LookaheadReader;
+use Semir\Laravel2impala\Thrift\Protocol\JSON\PairContext;
+use Semir\Laravel2impala\Thrift\Protocol\JSON\ListContext;
 
 /**
  * JSON implementation of thrift protocol, ported from Java.

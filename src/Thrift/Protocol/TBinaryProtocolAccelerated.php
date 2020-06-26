@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol;
 
-use Thrift\Transport\TBufferedTransport;
+use Semir\Laravel2impala\Thrift\Transport\TBufferedTransport;
 
 /**
  * Accelerated binary protocol: used in conjunction with the thrift_protocol

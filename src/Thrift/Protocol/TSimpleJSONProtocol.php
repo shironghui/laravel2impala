@@ -23,13 +23,13 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol;
 
-use Thrift\Exception\TException;
-use Thrift\Exception\TProtocolException;
-use Thrift\Protocol\SimpleJSON\Context;
-use Thrift\Protocol\SimpleJSON\ListContext;
-use Thrift\Protocol\SimpleJSON\StructContext;
-use Thrift\Protocol\SimpleJSON\MapContext;
-use Thrift\Protocol\SimpleJSON\CollectionMapKeyException;
+use Semir\Laravel2impala\Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Exception\TProtocolException;
+use Semir\Laravel2impala\Thrift\Protocol\SimpleJSON\Context;
+use Semir\Laravel2impala\Thrift\Protocol\SimpleJSON\ListContext;
+use Semir\Laravel2impala\Thrift\Protocol\SimpleJSON\StructContext;
+use Semir\Laravel2impala\Thrift\Protocol\SimpleJSON\MapContext;
+use Semir\Laravel2impala\Thrift\Protocol\SimpleJSON\CollectionMapKeyException;
 
 /**
  * SimpleJSON implementation of thrift protocol, ported from Java.
