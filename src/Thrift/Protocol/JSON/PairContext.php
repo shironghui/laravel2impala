@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Protocol\JSON;
 
-use Thrift\Protocol\TJSONProtocol;
+use Semir\Laravel2impala\Thrift\Protocol\TJSONProtocol;
 
 class PairContext extends BaseContext
 {
