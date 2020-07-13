@@ -7,12 +7,12 @@ namespace Semir\Laravel2impala\ThriftGenerated;
  * DO NOT EDIT UNLESS YOU ARE SURE THAT YOU KNOW WHAT YOU ARE DOING
  *  @generated
  */
-use Thrift\Base\TBase;
-use Thrift\Type\TType;
+use Semir\Laravel2impala\Thrift\Base\TBase;
+use Semir\Laravel2impala\Thrift\Type\TType;
 use Semir\Laravel2impala\Thrift\Type\TMessageType;
-use Thrift\Exception\TException;
-use Thrift\Exception\TProtocolException;
-use Thrift\Protocol\TProtocol;
+use Semir\Laravel2impala\Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Exception\TProtocolException;
+use Semir\Laravel2impala\Thrift\Protocol\TProtocol;
 use Semir\Laravel2impala\Thrift\Protocol\TBinaryProtocolAccelerated;
 use Semir\Laravel2impala\Thrift\Exception\TApplicationException;
 
@@ -64,7 +64,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_query_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_query_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -189,7 +189,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_explain_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_explain_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -253,7 +253,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_fetch_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_fetch_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -318,7 +318,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_get_state_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_get_state_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -380,7 +380,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_get_results_metadata_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_get_results_metadata_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -442,7 +442,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_echo_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_echo_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -500,7 +500,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_dump_config_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_dump_config_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -559,7 +559,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_get_log_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_get_log_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -621,7 +621,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_get_default_configuration_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_get_default_configuration_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -680,7 +680,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_close_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_close_result',
                 $this->input_->isStrictRead()
             );
         } else {
@@ -742,7 +742,7 @@ class BeeswaxServiceClient implements BeeswaxServiceIf
         if ($bin_accel) {
             $result = thrift_protocol_read_binary(
                 $this->input_,
-                '\ThriftGenerated\BeeswaxService_clean_result',
+                '\Semir\Laravel2impala\ThriftGenerated\BeeswaxService_clean_result',
                 $this->input_->isStrictRead()
             );
         } else {
