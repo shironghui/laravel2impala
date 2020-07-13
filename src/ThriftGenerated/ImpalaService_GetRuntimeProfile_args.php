@@ -7,14 +7,14 @@ namespace Semir\Laravel2impala\ThriftGenerated;
  * DO NOT EDIT UNLESS YOU ARE SURE THAT YOU KNOW WHAT YOU ARE DOING
  *  @generated
  */
-use Thrift\Base\TBase;
-use Thrift\Type\TType;
-use Thrift\Type\TMessageType;
-use Thrift\Exception\TException;
-use Thrift\Exception\TProtocolException;
-use Thrift\Protocol\TProtocol;
-use Thrift\Protocol\TBinaryProtocolAccelerated;
-use Thrift\Exception\TApplicationException;
+use Semir\Laravel2impala\Thrift\Base\TBase;
+use Semir\Laravel2impala\Thrift\Type\TType;
+use Semir\Laravel2impala\Thrift\Type\TMessageType;
+use Semir\Laravel2impala\Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Exception\TProtocolException;
+use Semir\Laravel2impala\Thrift\Protocol\TProtocol;
+use Semir\Laravel2impala\Thrift\Protocol\TBinaryProtocolAccelerated;
+use Semir\Laravel2impala\Thrift\Exception\TApplicationException;
 
 class ImpalaService_GetRuntimeProfile_args
 {
