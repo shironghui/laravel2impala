@@ -2,7 +2,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Server;
 
-use Thrift\Exception\TTransportException;
+use Semir\Laravel2impala\Thrift\Exception\TTransportException;
 
 /**
  * Simple implemtation of a Thrift server.

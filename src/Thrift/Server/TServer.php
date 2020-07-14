@@ -2,8 +2,8 @@
 
 namespace Semir\Laravel2impala\Thrift\Server;
 
-use Thrift\Factory\TTransportFactory;
-use Thrift\Factory\TProtocolFactory;
+use Semir\Laravel2impala\Thrift\Factory\TTransportFactory;
+use Semir\Laravel2impala\Thrift\Factory\TProtocolFactory;
 
 /**
  * Generic class for a Thrift server.

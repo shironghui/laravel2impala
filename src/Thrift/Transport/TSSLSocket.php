@@ -22,9 +22,9 @@
 
 namespace Semir\Laravel2impala\Thrift\Transport;
 
-use Thrift\Exception\TException;
-use Thrift\Exception\TTransportException;
-use Thrift\Factory\TStringFuncFactory;
+use Semir\Laravel2impala\Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Exception\TTransportException;
+use Semir\Laravel2impala\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Sockets implementation of the TTransport interface.

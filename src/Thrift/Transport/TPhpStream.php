@@ -22,8 +22,8 @@
 
 namespace Semir\Laravel2impala\Thrift\Transport;
 
-use Thrift\Exception\TException;
-use Thrift\Factory\TStringFuncFactory;
+use Semir\Laravel2impala\Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Php stream transport. Reads to and writes from the php standard streams

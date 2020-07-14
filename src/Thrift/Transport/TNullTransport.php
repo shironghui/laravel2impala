@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Transport;
 
-use Thrift\Exception\TTransportException;
+use Semir\Laravel2impala\Thrift\Exception\TTransportException;
 
 /**
  * Transport that only accepts writes and ignores them.

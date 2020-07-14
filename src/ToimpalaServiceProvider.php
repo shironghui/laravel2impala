@@ -1,7 +1,10 @@
 <?php
-
 namespace Semir\Laravel2impala;
-
+/**
+ * Laravel to impala ServiceProvider
+ * @author Tris<shironghui@ecsemir.com>
+ * Date: 2020-07-07
+ */
 use Illuminate\Support\ServiceProvider;
 use Semir\Laravel2impala\ThriftSQL\Impala as Connection;
 

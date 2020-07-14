@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Transport;
 
-use Thrift\Exception\TException;
+use Semir\Laravel2impala\Thrift\Exception\TException;
 
 /**
  * This library makes use of APC cache to make hosts as down in a web

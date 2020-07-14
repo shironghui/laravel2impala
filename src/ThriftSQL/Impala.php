@@ -57,21 +57,14 @@ class Impala extends ThriftSQL {
     }
 
     try {
-      //$this->_transport = new \Thrift\Transport\TSocket( $this->_host, $this->_port );
-      $this->_transport = new TSocket($this->_host, $this->_port);
+        $this->_transport = new TSocket($this->_host, $this->_port);
 
-      if ( null !== $this->_timeout ) {
-        $this->_transport->setSendTimeout( $this->_timeout * 1000 );
-        $this->_transport->setRecvTimeout( $this->_timeout * 1000 );
-      }
+        if ( null !== $this->_timeout ) {
+            $this->_transport->setSendTimeout( $this->_timeout * 1000 );
+            $this->_transport->setRecvTimeout( $this->_timeout * 1000 );
+        }
 
-      $this->_transport->open();
-
-      //$this->_client = new \ThriftGenerated\ImpalaServiceClient(
-      //  new \Thrift\Protocol\TBinaryProtocol(
-      //    $this->_transport
-      //  )
-      //);
+        $this->_transport->open();
         $this->_client = new ImpalaServiceClient(
             new TBinaryProtocol(
                 $this->_transport

@@ -6,7 +6,7 @@ use Semir\Laravel2impala\ThriftSQL\Utils\Iterator;
 abstract class ThriftSQL {
 
   const VERSION = '0.3.1';
-  const USERNAME_DEFAULT = 'php-thrift-sql';
+  const USERNAME_DEFAULT = 'tris-php-impala';
 
   /**
   * @return self

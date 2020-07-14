@@ -21,7 +21,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Server;
 
-use Thrift\Transport\TSSLSocket;
+use Semir\Laravel2impala\Thrift\Transport\TSSLSocket;
 
 /**
  * Socket implementation of a server agent.

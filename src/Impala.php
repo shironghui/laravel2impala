@@ -30,7 +30,7 @@ class Impala {
     }
 
     /**
-     * 查询自定义SQL
+     * 鏌ヨSQL
      * @param $sql
      * @return array|false
      */
@@ -60,7 +60,7 @@ class Impala {
     }
 
     /**
-     * 构建SQL where语句
+     * 鏋勫缓SQL
      * @param array $whereArray
      * @param string $field
      * @param null   $page

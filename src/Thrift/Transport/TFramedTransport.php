@@ -22,7 +22,7 @@
 
 namespace Semir\Laravel2impala\Thrift\Transport;
 
-use Thrift\Factory\TStringFuncFactory;
+use Semir\Laravel2impala\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Framed transport. Writes and reads data in chunks that are stamped with

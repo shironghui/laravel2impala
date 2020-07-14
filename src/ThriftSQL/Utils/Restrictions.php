@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * Impala driver of thrift
+ * @author Tris<shironghui@ecsemir.com>
+ * Date: 2020-06-06
+ */
 namespace Semir\Laravel2impala\ThriftSQL\Utils;
 
 /**

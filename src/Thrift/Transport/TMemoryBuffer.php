@@ -22,8 +22,8 @@
 
 namespace Semir\Laravel2impala\Thrift\Transport;
 
-use Thrift\Exception\TTransportException;
-use Thrift\Factory\TStringFuncFactory;
+use Semir\Laravel2impala\Thrift\Exception\TTransportException;
+use Semir\Laravel2impala\Thrift\Factory\TStringFuncFactory;
 
 /**
  * A memory buffer is a tranpsort that simply reads from and writes to an
